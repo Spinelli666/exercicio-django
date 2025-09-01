@@ -6,5 +6,5 @@ from . import views
 # MVT (MVC)
 
 urlpatterns = [
-    path('', views.home),
+    path('', views.home, name='home'),
 ]
